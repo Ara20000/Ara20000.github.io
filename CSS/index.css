@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+section {
+    background-color: #f4f4f4;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.section-h2 {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid red;
+
+}
+
+.section-1 {
+    float: left;
+    width: 31.5%;
+}
+
+.section-2 {
+    float: left;
+    width: 31.5%;
+}
+
+.section-3 {
+    float: left;
+    width: 31.5%;
+}
+
+.section-p {
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+    line-height: 1.5;
+}
+
+@media (min-width:992px) {
+.section-1 {
+    float: left;
+    width: 31%;
+}
+
+.section-2 {
+    float: left;
+    width: 31%;
+}
+
+.section-3 {
+    float: left;
+    width: 31%;
+}
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .section-1 {
+        float: left;
+        width: 47%;
+    }
+
+    .section-2 {
+        float: left;
+        width: 47%;
+    }
+
+    .section-3 {
+        float: left;
+        width: 97%;
+}
+}
+
+@media (max-width:767px) {
+    .section-1 {
+        float: left;
+        width: 97%;
+    }
+
+    .section-2 {
+        float: left;
+        width: 97%;
+    }
+
+    .section-3 {
+        float: left;
+        width: 97%;
+}
+}
